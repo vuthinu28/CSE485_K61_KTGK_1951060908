@@ -1,22 +1,22 @@
 <?php
   require("config/db.php");
-  $id = $_GET['reci_id']; 
+ 
 if(isset($_POST['btnSua']))
 {
-  
-    
+ 
 //echo "Button CLicked";
 //Get all the values from form to update
-$tenNV = $_POST['hoten'];
-$tuoi=$_POST['tuoi'];
-$nhommau=$_POST['nhommau'];
-$soluong=$_POST['soluong'];
-$gioitinh = $_POST['gioitinh'];
-$ngaynhanmau = $_POST['ngaynhanmau'];
-$sodidong = $_POST['sodidong'];
+        $id = $_POST['reci_id'];
+        $tenNV = $_POST['txthoten'];
+        $tuoi=$_POST['txttuoi'];
+        $nhommau=$_POST['txtnhommau'];
+        $soluong=$_POST['soluongmau'];
+        $gioitinh = $_POST['txtgioitinh'];
+        $ngaynhanmau = $_POST['ngaynhanmau'];
+        $sodidong = $_POST['sodidong'];
 
        
-
+        
         //Create a SQL Query to Update Admin
         $sql = "UPDATE blood_recipent SET
         reci_name ='$tenNV';

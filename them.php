@@ -14,6 +14,10 @@ include('templates/header.php');
         <div class="container col-md-12 mx-auto">
             <form action="process-them.php" METHOD="POST">
                 <div class="col-md-6 mx-auto">
+                <div class="input-group mb-2">
+                        <span class="input-group-text col-3">ID</span>
+                        <input type="text" class="form-control" name= "txtid" placeholder="Nhập ID">
+                    </div>
                     <div class="input-group mb-2">
                         <span class="input-group-text col-3">Họ và tên</span>
                         <input type="text" class="form-control" name= "txthoten" placeholder="Nhập họ và tên">

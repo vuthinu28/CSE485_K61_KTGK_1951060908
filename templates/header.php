@@ -16,20 +16,20 @@
               <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
                   <div class="container-fluid">
-                    <a class="navbar-brand" href="index.php">Administration</a>
+                    <a class="navbar-brand" href="index.php">Trang chủ</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                       <ul class="navbar-nav">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Quản lý danh bạ người dùng</a>
+                          <a class="nav-link active" aria-current="page" href="#">Quản lý người nhận máu</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Quản lý danh bạ đơn vị</a>
+                          <a class="nav-link" href="#">Quản lý người hiến máu</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Quản lý tài khoản</a>
+                          <a class="nav-link" href="#">Đăng xuất</a>
                         </li>
                       </ul>
                     </div>

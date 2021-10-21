@@ -40,7 +40,7 @@
                     $gioitinh = $row['reci_sex'];
                     $ngaynhanmau = $row['reci_reg_date'];
                     $sodidong = $row['reci_phno'];
-                    $manv = $row['reci_id'];
+                  
                 }
                 else
                 {
@@ -57,33 +57,33 @@
     <tr>
         <td>Họ Tên: </td>
         <td>
-            <input type="text" name="hoten" value="<?php echo $tenNV;?>">
+            <input type="text" name="txthoten" value="<?php echo $tenNV;?>">
         </td>
     </tr>
 
     <tr>
         <td>Tuổi: </td>
         <td>
-            <input type="text" name="tuoi" value="<?php echo $tuoi; ?>">
+            <input type="text" name="txttuoi" value="<?php echo $tuoi; ?>">
         </td>
     </tr>
     <tr>
         <td>Nhóm Máu: </td>
         <td>
-            <input type="text" name="nhommau" value="<?php echo $nhommau; ?>">
+            <input type="text" name="txtnhommau" value="<?php echo $nhommau; ?>">
         </td>
     </tr>
    
     <tr>
         <td>Số Lượng Máu: </td>
         <td>
-            <input type="text" name="soluong" value="<?php echo $soluong; ?>">
+            <input type="text" name="soluongmau" value="<?php echo $soluong; ?>">
         </td>
     </tr>
     <tr>
         <td>Giới Tính: </td>
         <td>
-            <input type="text" name="gioitinh" value="<?php echo $gioitinh; ?>">
+            <input type="text" name="txtgioitinh" value="<?php echo $gioitinh; ?>">
         </td>
     </tr>
     <tr>
@@ -101,7 +101,7 @@
 
     <tr>
         <td colspan="2">
-            <input type="hidden" name="id" value="<?php echo $id; ?>">
+            <input type="hidden" name="reci_id" value="<?php echo $id; ?>">
             <input type="submit" name="btnSua" value="Sửa" class="btn-secondary">
         </td>
     </tr>

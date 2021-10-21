@@ -20,6 +20,7 @@ include('templates/header.php')
                     <th scope="col">Số điện thoại</th>
                     <th scope="col">Sửa</th>
                     <th scope="col">Xóa</th>
+                    <th scope="col">Chi tiết</th>
                   </tr>
                 </thead>
                 <tbody>       
@@ -42,7 +43,8 @@ include('templates/header.php')
                       <td><?php echo $row['reci_reg_date']; ?></td>
                       <td><?php echo $row['reci_phno']; ?></td>     
                       <td><a href="sua.php?reci_id=<?php echo $row['reci_id'];?>"><i class="bi bi-pencil-square"></i></a></td>
-                      <td><a href="xoa.php?reci_id=<?php echo $row['reci_id'];?>"><i class="bi bi-trash"></i></a></td>                              
+                      <td><a href="xoa.php?reci_id=<?php echo $row['reci_id'];?>"><i class="bi bi-trash"></i></a></td>     
+                      <td><a href="chitiet.php?reci_id=<?php echo $row['reci_id'];?>"><i class="bi bi-record-fill"></i></a></td>                          
                     </tr>
                 <?php
                       $i++;
